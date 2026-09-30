@@ -1,7 +1,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 713 148"
-  width="713"
+  viewBox="0 0 726 148"
+  width="726"
   height="148"
   role="img"
   aria-label="GitHub contribution graph with space rocket animation"
@@ -9,51 +9,40 @@
   <title>GitHub contribution space rocket animation</title>
   
       <style>
-        .cell[data-w="1"][data-d="3"] .hit-overlay {
-          animation: hit0 10s infinite;
+        .cell[data-w="6"][data-d="0"] .hit-overlay {
+          animation: hit0 7.5s infinite;
         }
         @keyframes hit0 {
-          0%, 11.249999999999998%, 15%, 100% { opacity: 0; }
-          13.249999999999998% { opacity: 0.8; }
+          0%, 15%, 20%, 100% { opacity: 0; }
+          17% { opacity: 0.8; }
         }
       </style>
     
   
       <style>
-        .cell[data-w="25"][data-d="0"] .hit-overlay {
-          animation: hit1 10s infinite;
+        .cell[data-w="18"][data-d="5"] .hit-overlay {
+          animation: hit1 7.5s infinite;
         }
         @keyframes hit1 {
-          0%, 36.25%, 40%, 100% { opacity: 0; }
-          38.25% { opacity: 0.8; }
+          0%, 48.33333333333333%, 53.333333333333336%, 100% { opacity: 0; }
+          50.33333333333333% { opacity: 0.8; }
         }
       </style>
     
   
       <style>
-        .cell[data-w="38"][data-d="4"] .hit-overlay {
-          animation: hit2 10s infinite;
+        .cell[data-w="43"][data-d="5"] .hit-overlay {
+          animation: hit2 7.5s infinite;
         }
         @keyframes hit2 {
-          0%, 61.24999999999999%, 64.99999999999999%, 100% { opacity: 0; }
-          63.24999999999999% { opacity: 0.8; }
-        }
-      </style>
-    
-  
-      <style>
-        .cell[data-w="44"][data-d="3"] .hit-overlay {
-          animation: hit3 10s infinite;
-        }
-        @keyframes hit3 {
-          0%, 86.25%, 89.99999999999999%, 100% { opacity: 0; }
-          88.25% { opacity: 0.8; }
+          0%, 81.66666666666667%, 86.66666666666667%, 100% { opacity: 0; }
+          83.66666666666667% { opacity: 0.8; }
         }
       </style>
     
 
   <!-- Background -->
-  <rect width="713" height="148" rx="6" fill="#ffffff" />
+  <rect width="726" height="148" rx="6" fill="#ffffff" />
 
   <!-- Contribution grid -->
   <g id="grid">
@@ -63,22 +52,22 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="0" data-d="1" transform="translate(20, 33)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="0" data-d="2" transform="translate(20, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="0" data-d="3" transform="translate(20, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="0" data-d="4" transform="translate(20, 72)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -88,7 +77,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="0" data-d="6" transform="translate(20, 98)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -108,32 +97,32 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="1" data-d="3" transform="translate(33, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="1" data-d="4" transform="translate(33, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="1" data-d="5" transform="translate(33, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="1" data-d="6" transform="translate(33, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="2" data-d="0" transform="translate(46, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="2" data-d="1" transform="translate(46, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -143,42 +132,42 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="2" data-d="3" transform="translate(46, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="2" data-d="4" transform="translate(46, 72)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="2" data-d="5" transform="translate(46, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="2" data-d="6" transform="translate(46, 98)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="3" data-d="0" transform="translate(59, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="3" data-d="1" transform="translate(59, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="3" data-d="2" transform="translate(59, 46)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="3" data-d="3" transform="translate(59, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -188,17 +177,17 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="3" data-d="5" transform="translate(59, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="3" data-d="6" transform="translate(59, 98)">
           <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
-    <g class="cell" data-w="4" data-d="0" transform="translate(72, 20)">
+    <g class="cell" data-w="3" data-d="6" transform="translate(59, 98)">
           <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="4" data-d="0" transform="translate(72, 20)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -208,17 +197,17 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="4" data-d="2" transform="translate(72, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="4" data-d="3" transform="translate(72, 59)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="4" data-d="4" transform="translate(72, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -228,7 +217,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="4" data-d="6" transform="translate(72, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -238,77 +227,77 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="5" data-d="1" transform="translate(85, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="5" data-d="2" transform="translate(85, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="5" data-d="3" transform="translate(85, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="5" data-d="4" transform="translate(85, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="5" data-d="5" transform="translate(85, 85)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="5" data-d="6" transform="translate(85, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="6" data-d="0" transform="translate(98, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#30a14e" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="6" data-d="1" transform="translate(98, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="6" data-d="2" transform="translate(98, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="6" data-d="3" transform="translate(98, 59)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="6" data-d="4" transform="translate(98, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="6" data-d="5" transform="translate(98, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="6" data-d="6" transform="translate(98, 98)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="7" data-d="0" transform="translate(111, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="7" data-d="1" transform="translate(111, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -318,17 +307,17 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="7" data-d="3" transform="translate(111, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="7" data-d="4" transform="translate(111, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="7" data-d="5" transform="translate(111, 85)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -343,12 +332,12 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="8" data-d="1" transform="translate(124, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="8" data-d="2" transform="translate(124, 46)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -358,7 +347,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="8" data-d="4" transform="translate(124, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -373,67 +362,67 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="9" data-d="0" transform="translate(137, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="9" data-d="1" transform="translate(137, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="9" data-d="2" transform="translate(137, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="9" data-d="3" transform="translate(137, 59)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="9" data-d="4" transform="translate(137, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="9" data-d="5" transform="translate(137, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="9" data-d="6" transform="translate(137, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="10" data-d="0" transform="translate(150, 20)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="10" data-d="1" transform="translate(150, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="10" data-d="2" transform="translate(150, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="10" data-d="3" transform="translate(150, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="10" data-d="4" transform="translate(150, 72)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="10" data-d="5" transform="translate(150, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -443,12 +432,12 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="11" data-d="0" transform="translate(163, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="11" data-d="1" transform="translate(163, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -458,12 +447,12 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="11" data-d="3" transform="translate(163, 59)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="11" data-d="4" transform="translate(163, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -473,112 +462,112 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="11" data-d="6" transform="translate(163, 98)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="12" data-d="0" transform="translate(176, 20)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="12" data-d="1" transform="translate(176, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="12" data-d="2" transform="translate(176, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="12" data-d="3" transform="translate(176, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="12" data-d="4" transform="translate(176, 72)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="12" data-d="5" transform="translate(176, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="12" data-d="6" transform="translate(176, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="13" data-d="0" transform="translate(189, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="13" data-d="1" transform="translate(189, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="13" data-d="2" transform="translate(189, 46)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="13" data-d="3" transform="translate(189, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="13" data-d="4" transform="translate(189, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="13" data-d="5" transform="translate(189, 85)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#40c463" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="13" data-d="6" transform="translate(189, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="14" data-d="0" transform="translate(202, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="14" data-d="1" transform="translate(202, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="14" data-d="2" transform="translate(202, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="14" data-d="3" transform="translate(202, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="14" data-d="4" transform="translate(202, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="14" data-d="5" transform="translate(202, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="14" data-d="6" transform="translate(202, 98)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -588,17 +577,17 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="15" data-d="1" transform="translate(215, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="15" data-d="2" transform="translate(215, 46)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="15" data-d="3" transform="translate(215, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -608,17 +597,17 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="15" data-d="5" transform="translate(215, 85)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="15" data-d="6" transform="translate(215, 98)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="16" data-d="0" transform="translate(228, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -628,22 +617,22 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="16" data-d="2" transform="translate(228, 46)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="16" data-d="3" transform="translate(228, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="16" data-d="4" transform="translate(228, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="16" data-d="5" transform="translate(228, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -653,7 +642,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="17" data-d="0" transform="translate(241, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -663,57 +652,57 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="17" data-d="2" transform="translate(241, 46)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="17" data-d="3" transform="translate(241, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="17" data-d="4" transform="translate(241, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="17" data-d="5" transform="translate(241, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="17" data-d="6" transform="translate(241, 98)">
           <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
-    <g class="cell" data-w="18" data-d="0" transform="translate(254, 20)">
+    <g class="cell" data-w="17" data-d="3" transform="translate(241, 59)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="17" data-d="4" transform="translate(241, 72)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="17" data-d="5" transform="translate(241, 85)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="17" data-d="6" transform="translate(241, 98)">
           <rect width="10" height="10" rx="2" fill="#40c463" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="18" data-d="0" transform="translate(254, 20)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="18" data-d="1" transform="translate(254, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="18" data-d="2" transform="translate(254, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="18" data-d="3" transform="translate(254, 59)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="18" data-d="4" transform="translate(254, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="18" data-d="5" transform="translate(254, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#40c463" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -723,37 +712,37 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="19" data-d="0" transform="translate(267, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="19" data-d="1" transform="translate(267, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="19" data-d="2" transform="translate(267, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="19" data-d="3" transform="translate(267, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="19" data-d="4" transform="translate(267, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="19" data-d="5" transform="translate(267, 85)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="19" data-d="6" transform="translate(267, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -763,72 +752,72 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="20" data-d="1" transform="translate(280, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="20" data-d="2" transform="translate(280, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="20" data-d="3" transform="translate(280, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="20" data-d="4" transform="translate(280, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="20" data-d="5" transform="translate(280, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="20" data-d="6" transform="translate(280, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="21" data-d="0" transform="translate(293, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="21" data-d="1" transform="translate(293, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="21" data-d="2" transform="translate(293, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="21" data-d="3" transform="translate(293, 59)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="21" data-d="4" transform="translate(293, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="21" data-d="5" transform="translate(293, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="21" data-d="6" transform="translate(293, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="22" data-d="0" transform="translate(306, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -838,27 +827,27 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="22" data-d="2" transform="translate(306, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="22" data-d="3" transform="translate(306, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="22" data-d="4" transform="translate(306, 72)">
           <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
+    <g class="cell" data-w="22" data-d="3" transform="translate(306, 59)">
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="22" data-d="4" transform="translate(306, 72)">
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
     <g class="cell" data-w="22" data-d="5" transform="translate(306, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="22" data-d="6" transform="translate(306, 98)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -868,52 +857,52 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="23" data-d="1" transform="translate(319, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="23" data-d="2" transform="translate(319, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="23" data-d="3" transform="translate(319, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="23" data-d="4" transform="translate(319, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="23" data-d="5" transform="translate(319, 85)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="23" data-d="6" transform="translate(319, 98)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="24" data-d="0" transform="translate(332, 20)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="24" data-d="1" transform="translate(332, 33)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="24" data-d="2" transform="translate(332, 46)">
           <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
+    <g class="cell" data-w="23" data-d="4" transform="translate(319, 72)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="23" data-d="5" transform="translate(319, 85)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="23" data-d="6" transform="translate(319, 98)">
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="24" data-d="0" transform="translate(332, 20)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="24" data-d="1" transform="translate(332, 33)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="24" data-d="2" transform="translate(332, 46)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
     <g class="cell" data-w="24" data-d="3" transform="translate(332, 59)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -923,62 +912,62 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="24" data-d="5" transform="translate(332, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="24" data-d="6" transform="translate(332, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="25" data-d="0" transform="translate(345, 20)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="25" data-d="1" transform="translate(345, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="25" data-d="2" transform="translate(345, 46)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="25" data-d="3" transform="translate(345, 59)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="25" data-d="4" transform="translate(345, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="25" data-d="5" transform="translate(345, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="25" data-d="6" transform="translate(345, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="26" data-d="0" transform="translate(358, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="26" data-d="1" transform="translate(358, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="26" data-d="2" transform="translate(358, 46)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -988,32 +977,32 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="26" data-d="4" transform="translate(358, 72)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="26" data-d="5" transform="translate(358, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="26" data-d="6" transform="translate(358, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="27" data-d="0" transform="translate(371, 20)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="27" data-d="1" transform="translate(371, 33)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="27" data-d="2" transform="translate(371, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1023,87 +1012,87 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="27" data-d="4" transform="translate(371, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="27" data-d="5" transform="translate(371, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="27" data-d="6" transform="translate(371, 98)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="28" data-d="0" transform="translate(384, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="28" data-d="1" transform="translate(384, 33)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="28" data-d="2" transform="translate(384, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="28" data-d="3" transform="translate(384, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="28" data-d="4" transform="translate(384, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="28" data-d="5" transform="translate(384, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="28" data-d="6" transform="translate(384, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="29" data-d="0" transform="translate(397, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="29" data-d="1" transform="translate(397, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="29" data-d="2" transform="translate(397, 46)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="29" data-d="3" transform="translate(397, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="29" data-d="4" transform="translate(397, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="29" data-d="5" transform="translate(397, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="29" data-d="6" transform="translate(397, 98)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1113,12 +1102,12 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="30" data-d="1" transform="translate(410, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="30" data-d="2" transform="translate(410, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1128,82 +1117,82 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="30" data-d="4" transform="translate(410, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="30" data-d="5" transform="translate(410, 85)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="30" data-d="6" transform="translate(410, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="31" data-d="0" transform="translate(423, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="31" data-d="1" transform="translate(423, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="31" data-d="2" transform="translate(423, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="31" data-d="3" transform="translate(423, 59)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="31" data-d="4" transform="translate(423, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="31" data-d="5" transform="translate(423, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="31" data-d="6" transform="translate(423, 98)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="32" data-d="0" transform="translate(436, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="32" data-d="1" transform="translate(436, 33)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="32" data-d="2" transform="translate(436, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="32" data-d="3" transform="translate(436, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="32" data-d="4" transform="translate(436, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="32" data-d="5" transform="translate(436, 85)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1213,67 +1202,67 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="33" data-d="0" transform="translate(449, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="33" data-d="1" transform="translate(449, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="33" data-d="2" transform="translate(449, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="33" data-d="3" transform="translate(449, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="33" data-d="4" transform="translate(449, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="33" data-d="5" transform="translate(449, 85)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="33" data-d="6" transform="translate(449, 98)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="34" data-d="0" transform="translate(462, 20)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="34" data-d="1" transform="translate(462, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="34" data-d="2" transform="translate(462, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="34" data-d="3" transform="translate(462, 59)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="34" data-d="4" transform="translate(462, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="34" data-d="5" transform="translate(462, 85)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1283,47 +1272,47 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="35" data-d="0" transform="translate(475, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="35" data-d="1" transform="translate(475, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="35" data-d="2" transform="translate(475, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="35" data-d="3" transform="translate(475, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="35" data-d="4" transform="translate(475, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="35" data-d="5" transform="translate(475, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="35" data-d="6" transform="translate(475, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="36" data-d="0" transform="translate(488, 20)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="36" data-d="1" transform="translate(488, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1333,72 +1322,72 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="36" data-d="3" transform="translate(488, 59)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="36" data-d="4" transform="translate(488, 72)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="36" data-d="5" transform="translate(488, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="36" data-d="6" transform="translate(488, 98)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="37" data-d="0" transform="translate(501, 20)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="37" data-d="1" transform="translate(501, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="37" data-d="2" transform="translate(501, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="37" data-d="3" transform="translate(501, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="37" data-d="4" transform="translate(501, 72)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="37" data-d="5" transform="translate(501, 85)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="37" data-d="6" transform="translate(501, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="38" data-d="0" transform="translate(514, 20)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="38" data-d="1" transform="translate(514, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="38" data-d="2" transform="translate(514, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1408,27 +1397,27 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="38" data-d="4" transform="translate(514, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="38" data-d="5" transform="translate(514, 85)">
           <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
+    <g class="cell" data-w="38" data-d="5" transform="translate(514, 85)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
     <g class="cell" data-w="38" data-d="6" transform="translate(514, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="39" data-d="0" transform="translate(527, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="39" data-d="1" transform="translate(527, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1438,42 +1427,42 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="39" data-d="3" transform="translate(527, 59)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="39" data-d="4" transform="translate(527, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="39" data-d="5" transform="translate(527, 85)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="39" data-d="6" transform="translate(527, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="40" data-d="0" transform="translate(540, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="40" data-d="1" transform="translate(540, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="40" data-d="2" transform="translate(540, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="40" data-d="3" transform="translate(540, 59)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1483,7 +1472,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="40" data-d="5" transform="translate(540, 85)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1493,17 +1482,17 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="41" data-d="0" transform="translate(553, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="41" data-d="1" transform="translate(553, 33)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="41" data-d="2" transform="translate(553, 46)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1513,12 +1502,12 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="41" data-d="4" transform="translate(553, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="41" data-d="5" transform="translate(553, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1528,57 +1517,57 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="42" data-d="0" transform="translate(566, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="42" data-d="1" transform="translate(566, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="42" data-d="2" transform="translate(566, 46)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="42" data-d="3" transform="translate(566, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="42" data-d="4" transform="translate(566, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="42" data-d="5" transform="translate(566, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="42" data-d="6" transform="translate(566, 98)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="43" data-d="0" transform="translate(579, 20)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="43" data-d="1" transform="translate(579, 33)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
-          <!-- Hit overlay for animation -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="43" data-d="2" transform="translate(579, 46)">
           <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
+    <g class="cell" data-w="42" data-d="5" transform="translate(566, 85)">
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="42" data-d="6" transform="translate(566, 98)">
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="43" data-d="0" transform="translate(579, 20)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="43" data-d="1" transform="translate(579, 33)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="43" data-d="2" transform="translate(579, 46)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
     <g class="cell" data-w="43" data-d="3" transform="translate(579, 59)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1588,67 +1577,67 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="43" data-d="5" transform="translate(579, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#40c463" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="43" data-d="6" transform="translate(579, 98)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="44" data-d="0" transform="translate(592, 20)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="44" data-d="1" transform="translate(592, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="44" data-d="2" transform="translate(592, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="44" data-d="3" transform="translate(592, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="44" data-d="4" transform="translate(592, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="44" data-d="5" transform="translate(592, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="44" data-d="6" transform="translate(592, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="45" data-d="0" transform="translate(605, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="45" data-d="1" transform="translate(605, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="45" data-d="2" transform="translate(605, 46)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="45" data-d="3" transform="translate(605, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1658,12 +1647,12 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="45" data-d="5" transform="translate(605, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="45" data-d="6" transform="translate(605, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1673,132 +1662,132 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="46" data-d="1" transform="translate(618, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="46" data-d="2" transform="translate(618, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="46" data-d="3" transform="translate(618, 59)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="46" data-d="4" transform="translate(618, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="46" data-d="5" transform="translate(618, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="46" data-d="6" transform="translate(618, 98)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="47" data-d="0" transform="translate(631, 20)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="47" data-d="1" transform="translate(631, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="47" data-d="2" transform="translate(631, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="47" data-d="3" transform="translate(631, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="47" data-d="4" transform="translate(631, 72)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="47" data-d="5" transform="translate(631, 85)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="47" data-d="6" transform="translate(631, 98)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="48" data-d="0" transform="translate(644, 20)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="48" data-d="1" transform="translate(644, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="48" data-d="2" transform="translate(644, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="48" data-d="3" transform="translate(644, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="48" data-d="4" transform="translate(644, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="48" data-d="5" transform="translate(644, 85)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="48" data-d="6" transform="translate(644, 98)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="49" data-d="0" transform="translate(657, 20)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="49" data-d="1" transform="translate(657, 33)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="49" data-d="2" transform="translate(657, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="49" data-d="3" transform="translate(657, 59)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="49" data-d="4" transform="translate(657, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="49" data-d="5" transform="translate(657, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1808,67 +1797,67 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="50" data-d="0" transform="translate(670, 20)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="50" data-d="1" transform="translate(670, 33)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="50" data-d="2" transform="translate(670, 46)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="50" data-d="3" transform="translate(670, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="50" data-d="4" transform="translate(670, 72)">
-          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="50" data-d="5" transform="translate(670, 85)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="50" data-d="6" transform="translate(670, 98)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="0" transform="translate(683, 20)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="1" transform="translate(683, 33)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="2" transform="translate(683, 46)">
-          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="3" transform="translate(683, 59)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="4" transform="translate(683, 72)">
-          <rect width="10" height="10" rx="2" fill="#30a14e" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="5" transform="translate(683, 85)">
-          <rect width="10" height="10" rx="2" fill="#40c463" />
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
@@ -1877,39 +1866,66 @@
           <!-- Hit overlay for animation -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
+    <g class="cell" data-w="52" data-d="0" transform="translate(696, 20)">
+          <rect width="10" height="10" rx="2" fill="#216e39" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="1" transform="translate(696, 33)">
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="2" transform="translate(696, 46)">
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="3" transform="translate(696, 59)">
+          <rect width="10" height="10" rx="2" fill="#9be9a8" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="4" transform="translate(696, 72)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="5" transform="translate(696, 85)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="6" transform="translate(696, 98)">
+          <rect width="10" height="10" rx="2" fill="#ebedf0" />
+          <!-- Hit overlay for animation -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
   </g>
 
   <!-- Projectiles -->
   
-      <g opacity="0" transform="translate(38, 123)">
+      <g opacity="0" transform="translate(103, 123)">
         <!-- Thin simple laser -->
     <rect x="-0.5" y="-4" width="1" height="8" rx="0.5" fill="#0284c7" />
-        <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.075; 0.11249999999999999; 1" dur="10s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(38, 123); translate(38, 123); translate(38, 64); translate(38, 64)" keyTimes="0; 0.075; 0.11249999999999999; 1" dur="10s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.09999999999999999; 0.15; 1" dur="7.5s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(103, 123); translate(103, 123); translate(103, 25); translate(103, 25)" keyTimes="0; 0.09999999999999999; 0.15; 1" dur="7.5s" repeatCount="indefinite" />
       </g>
     
   
-      <g opacity="0" transform="translate(350, 123)">
+      <g opacity="0" transform="translate(259, 123)">
         <!-- Thin simple laser -->
     <rect x="-0.5" y="-4" width="1" height="8" rx="0.5" fill="#0284c7" />
-        <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.325; 0.3625; 1" dur="10s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(350, 123); translate(350, 123); translate(350, 25); translate(350, 25)" keyTimes="0; 0.325; 0.3625; 1" dur="10s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.4333333333333333; 0.4833333333333333; 1" dur="7.5s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(259, 123); translate(259, 123); translate(259, 90); translate(259, 90)" keyTimes="0; 0.4333333333333333; 0.4833333333333333; 1" dur="7.5s" repeatCount="indefinite" />
       </g>
     
   
-      <g opacity="0" transform="translate(519, 123)">
+      <g opacity="0" transform="translate(584, 123)">
         <!-- Thin simple laser -->
     <rect x="-0.5" y="-4" width="1" height="8" rx="0.5" fill="#0284c7" />
-        <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.575; 0.6124999999999999; 1" dur="10s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(519, 123); translate(519, 123); translate(519, 77); translate(519, 77)" keyTimes="0; 0.575; 0.6124999999999999; 1" dur="10s" repeatCount="indefinite" />
-      </g>
-    
-  
-      <g opacity="0" transform="translate(597, 123)">
-        <!-- Thin simple laser -->
-    <rect x="-0.5" y="-4" width="1" height="8" rx="0.5" fill="#0284c7" />
-        <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.825; 0.8624999999999999; 1" dur="10s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(597, 123); translate(597, 123); translate(597, 64); translate(597, 64)" keyTimes="0; 0.825; 0.8624999999999999; 1" dur="10s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="7.5s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(584, 123); translate(584, 123); translate(584, 90); translate(584, 90)" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="7.5s" repeatCount="indefinite" />
       </g>
     
 
@@ -1941,11 +1957,11 @@
     <animate 
       attributeName="transform" 
       type="translate"
-      values="translate(597, 123); translate(38, 123); translate(38, 120); translate(38, 123); translate(38, 123); translate(350, 123); translate(350, 120); translate(350, 123); translate(350, 123); translate(519, 123); translate(519, 120); translate(519, 123); translate(519, 123); translate(597, 123); translate(597, 120); translate(597, 123); translate(597, 123)"
-      keyTimes="0.000; 0.075; 0.100; 0.150; 0.250; 0.325; 0.350; 0.400; 0.500; 0.575; 0.600; 0.650; 0.750; 0.825; 0.850; 0.900; 1.000"
+      values="translate(584, 123); translate(103, 123); translate(103, 120); translate(103, 123); translate(103, 123); translate(259, 123); translate(259, 120); translate(259, 123); translate(259, 123); translate(584, 123); translate(584, 120); translate(584, 123); translate(584, 123)"
+      keyTimes="0.000; 0.100; 0.133; 0.200; 0.333; 0.433; 0.467; 0.533; 0.667; 0.767; 0.800; 0.867; 1.000"
       calcMode="spline"
-      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-      dur="10s" 
+      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+      dur="7.5s" 
       repeatCount="indefinite" 
     />
   </g>
