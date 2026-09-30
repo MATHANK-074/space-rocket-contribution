@@ -3,8 +3,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dist/space-rocket-dark.svg" />
-    <img src="./dist/space-rocket.svg" width="100%" alt="GitHub contribution space rocket animation" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MATHANK-074/space-rocket-contribution/main/dist/space-rocket-dark.svg" />
+    <img src="https://raw.githubusercontent.com/MATHANK-074/space-rocket-contribution/main/dist/space-rocket.svg" width="100%" alt="GitHub contribution space rocket animation" />
   </picture>
 </p>
 
