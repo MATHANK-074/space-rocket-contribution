@@ -1,0 +1,15 @@
+{
+  "name": "space-rocket-contribution",
+  "version": "1.0.0",
+  "description": "GitHub contribution graph animation with a space rocket — inspired by Platane/snk",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate": "node src/generate.js",
+    "generate:demo": "node src/generate.js --demo"
+  },
+  "keywords": ["github", "contribution", "svg", "animation", "rocket"],
+  "license": "MIT"
+}
