@@ -29,12 +29,12 @@ export function buildSvg(grid, theme) {
   }
 
   // Animation configuration
-  const TOTAL_DURATION = targets.length * 2.5; // 2.5 seconds per target cycle
+  const TOTAL_DURATION = targets.length * 3; // 3 seconds per target cycle
   
   // Build SMIL keyframes for rocket position and projectile
   const rocketKeyTimes = [];
   const rocketValuesX = [];
-  const rocketValuesY = [];
+  const rocketValuesY = []; 
   
   const projectileAnimations = [];
   const targetHighlightAnimations = [];
@@ -42,7 +42,7 @@ export function buildSvg(grid, theme) {
   const rocketBaseY = originY + gh + 15;
 
   targets.forEach((target, index) => {
-    // Each target gets a 2.5-second window (0 to 1 in normalized time)
+    // Each target gets a 3-second window (0 to 1 in normalized time)
     const startTime = index / targets.length;
     const durFraction = 1 / targets.length;
     
@@ -76,7 +76,7 @@ export function buildSvg(grid, theme) {
     rocketValuesY.push(
       `${rocketBaseY}`, 
       `${rocketBaseY}`, 
-      `${rocketBaseY - 3}`, // tiny bump up
+      `${rocketBaseY - 4}`, // slight bump up
       `${rocketBaseY}`
     );
 
@@ -92,9 +92,9 @@ export function buildSvg(grid, theme) {
       </g>
     `);
     
-    // Target Highlight Animation
+    // Target Highlight Animation - 3D pulse
     const hStart = pEnd;
-    const hEnd = pEnd + (durFraction * 0.15);
+    const hEnd = pEnd + (durFraction * 0.2);
     
     targetHighlightAnimations.push(`
       <style>
@@ -102,15 +102,15 @@ export function buildSvg(grid, theme) {
           animation: hit${index} ${TOTAL_DURATION}s infinite;
         }
         @keyframes hit${index} {
-          0%, ${hStart * 100}%, ${hEnd * 100}%, 100% { opacity: 0; }
-          ${(hStart + 0.02) * 100}% { opacity: 0.8; }
+          0%, ${hStart * 100}%, ${hEnd * 100}%, 100% { opacity: 0; transform: scale(1); }
+          ${(hStart + 0.02) * 100}% { opacity: 1; transform: scale(1.3); }
         }
       </style>
     `);
   });
 
   rocketKeyTimes.push("1.000");
-  rocketValuesX.push(`${rocketValuesX[0]}`);
+  rocketValuesX.push(`${rocketValuesX[0]}`); 
   rocketValuesY.push(`${rocketBaseY}`);
 
   const gridCells = renderGrid(grid, theme, originX, originY);
@@ -122,9 +122,15 @@ export function buildSvg(grid, theme) {
   width="${svgW}"
   height="${svgH}"
   role="img"
-  aria-label="GitHub contribution graph with space rocket animation"
+  aria-label="GitHub contribution graph with 3D space rocket animation"
 >
   <title>GitHub contribution space rocket animation</title>
+  <style>
+    .cell .hit-overlay {
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  </style>
   ${targetHighlightAnimations.join("\n  ")}
 
   <!-- Background -->
@@ -138,7 +144,7 @@ export function buildSvg(grid, theme) {
   <!-- Projectiles -->
   ${projectileAnimations.join("\n  ")}
 
-  <!-- Rocket -->
+  <!-- 3D Rocket -->
   <g id="rocket">
     ${rocket}
     <animate 

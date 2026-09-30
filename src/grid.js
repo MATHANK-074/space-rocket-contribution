@@ -1,5 +1,6 @@
 // ─────────────────────────────────────────────────────────────
-// grid.js — Render the contribution grid as SVG elements.
+// grid.js — Render the contribution grid as SVG elements with
+//           subtle 3D depth (bottom/right borders).
 // ─────────────────────────────────────────────────────────────
 
 /** Cell dimensions */
@@ -16,11 +17,15 @@ export const PALETTE = {
     bg: "#ffffff",
     empty: "#ebedf0",
     levels: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
+    shadow: "rgba(27,31,35,0.06)",
+    highlight: "rgba(255,255,255,0.4)"
   },
   dark: {
     bg: "#0d1117",
     empty: "#161b22",
     levels: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"],
+    shadow: "rgba(1,4,9,0.8)",
+    highlight: "rgba(255,255,255,0.1)"
   },
 };
 
@@ -40,9 +45,9 @@ export function getTargetCells(grid, count) {
   const targets = [];
   const chunkSize = Math.floor(grid.weeks.length / count);
   
-  for(let i = 0; i < count; i++) {
+  for(let i=0; i<count; i++) {
     const chunkStart = i * chunkSize;
-    const chunkEnd = (i === count - 1) ? grid.weeks.length : (i + 1) * chunkSize;
+    const chunkEnd = (i === count-1) ? grid.weeks.length : (i + 1) * chunkSize;
     const chunkCandidates = candidates.filter(c => c.w >= chunkStart && c.w < chunkEnd);
     
     if (chunkCandidates.length > 0) {
@@ -54,7 +59,7 @@ export function getTargetCells(grid, count) {
 }
 
 /**
- * Render the flat contribution grid cells.
+ * Render the contribution grid cells.
  */
 export function renderGrid(grid, theme, originX, originY) {
   const palette = PALETTE[theme];
@@ -71,7 +76,12 @@ export function renderGrid(grid, theme, originX, originY) {
       lines.push(
         `<g class="cell" data-w="${w}" data-d="${d}" transform="translate(${x}, ${y})">
           <rect width="${CELL.size}" height="${CELL.size}" rx="${CELL.radius}" fill="${fill}" />
-          <!-- Hit overlay for animation -->
+          <!-- Inner bottom-right shadow -->
+          <path d="M 0 ${CELL.size - CELL.radius} A ${CELL.radius} ${CELL.radius} 0 0 0 ${CELL.radius} ${CELL.size} L ${CELL.size} ${CELL.size} L ${CELL.size} ${CELL.radius} A ${CELL.radius} ${CELL.radius} 0 0 0 ${CELL.size - CELL.radius} 0 L ${CELL.size} 0 L ${CELL.size} ${CELL.size} L 0 ${CELL.size} Z" fill="${palette.shadow}" opacity="0.6" />
+          <!-- Inner top-left highlight -->
+          <path d="M 0 ${CELL.size - CELL.radius} L 0 0 L ${CELL.size - CELL.radius} 0 A ${CELL.radius} ${CELL.radius} 0 0 0 0 ${CELL.radius} Z" fill="${palette.highlight}" opacity="0.3" />
+          
+          <!-- Animation element injected via CSS/SMIL later if targeted -->
           <rect class="hit-overlay" width="${CELL.size}" height="${CELL.size}" rx="${CELL.radius}" fill="#ffffff" opacity="0" />
         </g>`
       );
