@@ -24,18 +24,17 @@ export function buildSvg(grid, theme) {
 
   // Select target cells for the rocket to shoot
   const targets = getTargetCells(grid, 4); 
-  // If no targets, just put a dummy target in the middle
   if (targets.length === 0) {
     targets.push({ w: Math.floor(grid.totalWeeks / 2), d: 3, level: 2 });
   }
 
   // Animation configuration
-  const TOTAL_DURATION = targets.length * 3; // 3 seconds per target cycle
+  const TOTAL_DURATION = targets.length * 2.5; // 2.5 seconds per target cycle
   
   // Build SMIL keyframes for rocket position and projectile
   const rocketKeyTimes = [];
   const rocketValuesX = [];
-  const rocketValuesY = []; // Rocket stays mostly at bottom, slight vertical bump
+  const rocketValuesY = [];
   
   const projectileAnimations = [];
   const targetHighlightAnimations = [];
@@ -43,12 +42,7 @@ export function buildSvg(grid, theme) {
   const rocketBaseY = originY + gh + 15;
 
   targets.forEach((target, index) => {
-    // Each target gets a 3-second window (0 to 1 in normalized time)
-    // 0.0 - 0.3: Move to position
-    // 0.3 - 0.4: Shoot upward bump
-    // 0.4 - 0.6: Return down
-    // 0.6 - 1.0: Idle
-    
+    // Each target gets a 2.5-second window (0 to 1 in normalized time)
     const startTime = index / targets.length;
     const durFraction = 1 / targets.length;
     
@@ -82,16 +76,14 @@ export function buildSvg(grid, theme) {
     rocketValuesY.push(
       `${rocketBaseY}`, 
       `${rocketBaseY}`, 
-      `${rocketBaseY - 4}`, // slight bump up
+      `${rocketBaseY - 3}`, // tiny bump up
       `${rocketBaseY}`
     );
 
     // Projectile Animation (visible only during shooting)
-    // Projectile shoots from rocketBaseY to targetY between tMoveEnd and tShootPeak
     const pStart = tMoveEnd;
     const pEnd = pStart + (durFraction * 0.15); // Travels fast
     
-    // We create a separate projectile group for each shot because SMIL visibility toggling is tricky
     projectileAnimations.push(`
       <g opacity="0" transform="translate(${targetX}, ${rocketBaseY})">
         ${projectileSvg(theme)}
@@ -101,9 +93,8 @@ export function buildSvg(grid, theme) {
     `);
     
     // Target Highlight Animation
-    // Highlights exactly at pEnd
     const hStart = pEnd;
-    const hEnd = pEnd + (durFraction * 0.2);
+    const hEnd = pEnd + (durFraction * 0.15);
     
     targetHighlightAnimations.push(`
       <style>
@@ -111,16 +102,15 @@ export function buildSvg(grid, theme) {
           animation: hit${index} ${TOTAL_DURATION}s infinite;
         }
         @keyframes hit${index} {
-          0%, ${hStart * 100}%, ${hEnd * 100}%, 100% { opacity: 0; transform: scale(1); }
-          ${(hStart + 0.02) * 100}% { opacity: 1; transform: scale(1.3); }
+          0%, ${hStart * 100}%, ${hEnd * 100}%, 100% { opacity: 0; }
+          ${(hStart + 0.02) * 100}% { opacity: 0.8; }
         }
       </style>
     `);
   });
 
-  // Ensure rocket loop completes back to start
   rocketKeyTimes.push("1.000");
-  rocketValuesX.push(`${rocketValuesX[0]}`); // Smooth transition handled by wrapping
+  rocketValuesX.push(`${rocketValuesX[0]}`);
   rocketValuesY.push(`${rocketBaseY}`);
 
   const gridCells = renderGrid(grid, theme, originX, originY);
@@ -132,15 +122,9 @@ export function buildSvg(grid, theme) {
   width="${svgW}"
   height="${svgH}"
   role="img"
-  aria-label="GitHub contribution graph with 3D space rocket animation"
+  aria-label="GitHub contribution graph with space rocket animation"
 >
   <title>GitHub contribution space rocket animation</title>
-  <style>
-    .cell .hit-overlay {
-      transform-origin: center;
-      transform-box: fill-box;
-    }
-  </style>
   ${targetHighlightAnimations.join("\n  ")}
 
   <!-- Background -->
@@ -154,7 +138,7 @@ export function buildSvg(grid, theme) {
   <!-- Projectiles -->
   ${projectileAnimations.join("\n  ")}
 
-  <!-- 3D Rocket -->
+  <!-- Rocket -->
   <g id="rocket">
     ${rocket}
     <animate 
