@@ -37,7 +37,7 @@
     
   
       <style>
-        .cell[data-w="43"][data-d="4"] .hit-overlay {
+        .cell[data-w="43"][data-d="5"] .hit-overlay {
           animation: hit2 9s infinite;
         }
         @keyframes hit2 {
@@ -3723,7 +3723,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="52" data-d="3" transform="translate(696, 59)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#006d32" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3813,7 +3813,7 @@
     <!-- Core highlight -->
     <rect x="-0.3" y="-3" width="0.6" height="6" rx="0.3" fill="#ffffff" />
         <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="9s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(584, 123); translate(584, 123); translate(584, 77); translate(584, 77)" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="9s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(584, 123); translate(584, 123); translate(584, 90); translate(584, 90)" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="9s" repeatCount="indefinite" />
       </g>
     
 
