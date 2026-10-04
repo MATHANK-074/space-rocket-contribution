@@ -15,7 +15,7 @@
   </style>
   
       <style>
-        .cell[data-w="6"][data-d="0"] .hit-overlay {
+        .cell[data-w="12"][data-d="5"] .hit-overlay {
           animation: hit0 9s infinite;
         }
         @keyframes hit0 {
@@ -26,7 +26,7 @@
     
   
       <style>
-        .cell[data-w="13"][data-d="5"] .hit-overlay {
+        .cell[data-w="17"][data-d="5"] .hit-overlay {
           animation: hit1 9s infinite;
         }
         @keyframes hit1 {
@@ -37,7 +37,7 @@
     
   
       <style>
-        .cell[data-w="52"][data-d="5"] .hit-overlay {
+        .cell[data-w="42"][data-d="4"] .hit-overlay {
           animation: hit2 9s infinite;
         }
         @keyframes hit2 {
@@ -253,7 +253,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="2" data-d="6" transform="translate(46, 98)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -323,7 +323,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="3" data-d="6" transform="translate(59, 98)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -403,7 +403,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="5" data-d="0" transform="translate(85, 20)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#26a641" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -473,7 +473,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="6" data-d="0" transform="translate(98, 20)">
-          <rect width="10" height="10" rx="2" fill="#26a641" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -933,7 +933,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="12" data-d="4" transform="translate(176, 72)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -943,7 +943,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="12" data-d="5" transform="translate(176, 85)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#006d32" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1003,7 +1003,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="13" data-d="4" transform="translate(189, 72)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1013,7 +1013,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="13" data-d="5" transform="translate(189, 85)">
-          <rect width="10" height="10" rx="2" fill="#006d32" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1233,7 +1233,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="16" data-d="6" transform="translate(228, 98)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#006d32" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1293,7 +1293,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="17" data-d="5" transform="translate(241, 85)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#006d32" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1303,7 +1303,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="17" data-d="6" transform="translate(241, 98)">
-          <rect width="10" height="10" rx="2" fill="#006d32" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1363,7 +1363,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="18" data-d="5" transform="translate(254, 85)">
-          <rect width="10" height="10" rx="2" fill="#006d32" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1553,7 +1553,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="21" data-d="3" transform="translate(293, 59)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1563,7 +1563,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="21" data-d="4" transform="translate(293, 72)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1633,7 +1633,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="22" data-d="4" transform="translate(306, 72)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1653,7 +1653,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="22" data-d="6" transform="translate(306, 98)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1693,7 +1693,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="23" data-d="3" transform="translate(319, 59)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1703,7 +1703,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="23" data-d="4" transform="translate(319, 72)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1723,7 +1723,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="23" data-d="6" transform="translate(319, 98)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1733,7 +1733,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="24" data-d="0" transform="translate(332, 20)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1773,7 +1773,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="24" data-d="4" transform="translate(332, 72)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1803,7 +1803,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="25" data-d="0" transform="translate(345, 20)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1833,7 +1833,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="25" data-d="3" transform="translate(345, 59)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -1973,7 +1973,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="27" data-d="3" transform="translate(371, 59)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2063,7 +2063,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="28" data-d="5" transform="translate(384, 85)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2133,7 +2133,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="29" data-d="5" transform="translate(397, 85)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2683,7 +2683,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="37" data-d="4" transform="translate(501, 72)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2703,7 +2703,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="37" data-d="6" transform="translate(501, 98)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2753,7 +2753,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="38" data-d="4" transform="translate(514, 72)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2773,7 +2773,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="38" data-d="6" transform="translate(514, 98)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2863,7 +2863,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="40" data-d="1" transform="translate(540, 33)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2913,7 +2913,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="40" data-d="6" transform="translate(540, 98)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2933,7 +2933,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="41" data-d="1" transform="translate(553, 33)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2963,7 +2963,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="41" data-d="4" transform="translate(553, 72)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -2973,7 +2973,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="41" data-d="5" transform="translate(553, 85)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3033,7 +3033,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="42" data-d="4" transform="translate(566, 72)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#006d32" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3043,7 +3043,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="42" data-d="5" transform="translate(566, 85)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#006d32" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3053,7 +3053,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="42" data-d="6" transform="translate(566, 98)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3103,7 +3103,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="43" data-d="4" transform="translate(579, 72)">
-          <rect width="10" height="10" rx="2" fill="#006d32" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3113,7 +3113,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="43" data-d="5" transform="translate(579, 85)">
-          <rect width="10" height="10" rx="2" fill="#006d32" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3173,7 +3173,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="44" data-d="4" transform="translate(592, 72)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3243,7 +3243,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="45" data-d="4" transform="translate(605, 72)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3253,7 +3253,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="45" data-d="5" transform="translate(605, 85)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3263,7 +3263,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="45" data-d="6" transform="translate(605, 98)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3283,7 +3283,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="46" data-d="1" transform="translate(618, 33)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3323,7 +3323,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="46" data-d="5" transform="translate(618, 85)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3333,7 +3333,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="46" data-d="6" transform="translate(618, 98)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3353,7 +3353,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="47" data-d="1" transform="translate(631, 33)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3483,7 +3483,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="49" data-d="0" transform="translate(657, 20)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3553,7 +3553,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="50" data-d="0" transform="translate(670, 20)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3613,7 +3613,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="50" data-d="6" transform="translate(670, 98)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3623,7 +3623,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="0" transform="translate(683, 20)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#39d353" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3633,7 +3633,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="1" transform="translate(683, 33)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3643,7 +3643,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="2" transform="translate(683, 46)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3653,7 +3653,7 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="3" transform="translate(683, 59)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <rect width="10" height="10" rx="2" fill="#0e4429" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3663,76 +3663,6 @@
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
     <g class="cell" data-w="51" data-d="4" transform="translate(683, 72)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
-          <!-- Inner bottom-right shadow -->
-          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
-          <!-- Inner top-left highlight -->
-          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
-          
-          <!-- Animation element injected via CSS/SMIL later if targeted -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="51" data-d="5" transform="translate(683, 85)">
-          <rect width="10" height="10" rx="2" fill="#161b22" />
-          <!-- Inner bottom-right shadow -->
-          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
-          <!-- Inner top-left highlight -->
-          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
-          
-          <!-- Animation element injected via CSS/SMIL later if targeted -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="51" data-d="6" transform="translate(683, 98)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
-          <!-- Inner bottom-right shadow -->
-          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
-          <!-- Inner top-left highlight -->
-          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
-          
-          <!-- Animation element injected via CSS/SMIL later if targeted -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="52" data-d="0" transform="translate(696, 20)">
-          <rect width="10" height="10" rx="2" fill="#39d353" />
-          <!-- Inner bottom-right shadow -->
-          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
-          <!-- Inner top-left highlight -->
-          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
-          
-          <!-- Animation element injected via CSS/SMIL later if targeted -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="52" data-d="1" transform="translate(696, 33)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
-          <!-- Inner bottom-right shadow -->
-          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
-          <!-- Inner top-left highlight -->
-          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
-          
-          <!-- Animation element injected via CSS/SMIL later if targeted -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="52" data-d="2" transform="translate(696, 46)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
-          <!-- Inner bottom-right shadow -->
-          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
-          <!-- Inner top-left highlight -->
-          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
-          
-          <!-- Animation element injected via CSS/SMIL later if targeted -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="52" data-d="3" transform="translate(696, 59)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
-          <!-- Inner bottom-right shadow -->
-          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
-          <!-- Inner top-left highlight -->
-          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
-          
-          <!-- Animation element injected via CSS/SMIL later if targeted -->
-          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
-        </g>
-    <g class="cell" data-w="52" data-d="4" transform="translate(696, 72)">
           <rect width="10" height="10" rx="2" fill="#006d32" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
@@ -3742,7 +3672,7 @@
           <!-- Animation element injected via CSS/SMIL later if targeted -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
-    <g class="cell" data-w="52" data-d="5" transform="translate(696, 85)">
+    <g class="cell" data-w="51" data-d="5" transform="translate(683, 85)">
           <rect width="10" height="10" rx="2" fill="#39d353" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
@@ -3752,8 +3682,78 @@
           <!-- Animation element injected via CSS/SMIL later if targeted -->
           <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
         </g>
+    <g class="cell" data-w="51" data-d="6" transform="translate(683, 98)">
+          <rect width="10" height="10" rx="2" fill="#006d32" />
+          <!-- Inner bottom-right shadow -->
+          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
+          <!-- Inner top-left highlight -->
+          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
+          
+          <!-- Animation element injected via CSS/SMIL later if targeted -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="0" transform="translate(696, 20)">
+          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <!-- Inner bottom-right shadow -->
+          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
+          <!-- Inner top-left highlight -->
+          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
+          
+          <!-- Animation element injected via CSS/SMIL later if targeted -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="1" transform="translate(696, 33)">
+          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <!-- Inner bottom-right shadow -->
+          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
+          <!-- Inner top-left highlight -->
+          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
+          
+          <!-- Animation element injected via CSS/SMIL later if targeted -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="2" transform="translate(696, 46)">
+          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <!-- Inner bottom-right shadow -->
+          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
+          <!-- Inner top-left highlight -->
+          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
+          
+          <!-- Animation element injected via CSS/SMIL later if targeted -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="3" transform="translate(696, 59)">
+          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <!-- Inner bottom-right shadow -->
+          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
+          <!-- Inner top-left highlight -->
+          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
+          
+          <!-- Animation element injected via CSS/SMIL later if targeted -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="4" transform="translate(696, 72)">
+          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <!-- Inner bottom-right shadow -->
+          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
+          <!-- Inner top-left highlight -->
+          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
+          
+          <!-- Animation element injected via CSS/SMIL later if targeted -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
+    <g class="cell" data-w="52" data-d="5" transform="translate(696, 85)">
+          <rect width="10" height="10" rx="2" fill="#161b22" />
+          <!-- Inner bottom-right shadow -->
+          <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
+          <!-- Inner top-left highlight -->
+          <path d="M 0 8 L 0 0 L 8 0 A 2 2 0 0 0 0 2 Z" fill="rgba(255,255,255,0.1)" opacity="0.3" />
+          
+          <!-- Animation element injected via CSS/SMIL later if targeted -->
+          <rect class="hit-overlay" width="10" height="10" rx="2" fill="#ffffff" opacity="0" />
+        </g>
     <g class="cell" data-w="52" data-d="6" transform="translate(696, 98)">
-          <rect width="10" height="10" rx="2" fill="#0e4429" />
+          <rect width="10" height="10" rx="2" fill="#161b22" />
           <!-- Inner bottom-right shadow -->
           <path d="M 0 8 A 2 2 0 0 0 2 10 L 10 10 L 10 2 A 2 2 0 0 0 8 0 L 10 0 L 10 10 L 0 10 Z" fill="rgba(1,4,9,0.8)" opacity="0.6" />
           <!-- Inner top-left highlight -->
@@ -3766,7 +3766,7 @@
 
   <!-- Projectiles -->
   
-      <g opacity="0" transform="translate(103, 123)">
+      <g opacity="0" transform="translate(181, 123)">
         <defs>
       <linearGradient id="projGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5" />
@@ -3779,11 +3779,11 @@
     <!-- Core highlight -->
     <rect x="-0.3" y="-3" width="0.6" height="6" rx="0.3" fill="#ffffff" />
         <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.09999999999999999; 0.15; 1" dur="9s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(103, 123); translate(103, 123); translate(103, 25); translate(103, 25)" keyTimes="0; 0.09999999999999999; 0.15; 1" dur="9s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(181, 123); translate(181, 123); translate(181, 90); translate(181, 90)" keyTimes="0; 0.09999999999999999; 0.15; 1" dur="9s" repeatCount="indefinite" />
       </g>
     
   
-      <g opacity="0" transform="translate(194, 123)">
+      <g opacity="0" transform="translate(246, 123)">
         <defs>
       <linearGradient id="projGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5" />
@@ -3796,11 +3796,11 @@
     <!-- Core highlight -->
     <rect x="-0.3" y="-3" width="0.6" height="6" rx="0.3" fill="#ffffff" />
         <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.4333333333333333; 0.4833333333333333; 1" dur="9s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(194, 123); translate(194, 123); translate(194, 90); translate(194, 90)" keyTimes="0; 0.4333333333333333; 0.4833333333333333; 1" dur="9s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(246, 123); translate(246, 123); translate(246, 90); translate(246, 90)" keyTimes="0; 0.4333333333333333; 0.4833333333333333; 1" dur="9s" repeatCount="indefinite" />
       </g>
     
   
-      <g opacity="0" transform="translate(701, 123)">
+      <g opacity="0" transform="translate(571, 123)">
         <defs>
       <linearGradient id="projGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5" />
@@ -3813,7 +3813,7 @@
     <!-- Core highlight -->
     <rect x="-0.3" y="-3" width="0.6" height="6" rx="0.3" fill="#ffffff" />
         <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="9s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(701, 123); translate(701, 123); translate(701, 90); translate(701, 90)" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="9s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(571, 123); translate(571, 123); translate(571, 77); translate(571, 77)" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="9s" repeatCount="indefinite" />
       </g>
     
 
@@ -3873,7 +3873,7 @@
     <animate 
       attributeName="transform" 
       type="translate"
-      values="translate(701, 123); translate(103, 123); translate(103, 119); translate(103, 123); translate(103, 123); translate(194, 123); translate(194, 119); translate(194, 123); translate(194, 123); translate(701, 123); translate(701, 119); translate(701, 123); translate(701, 123)"
+      values="translate(571, 123); translate(181, 123); translate(181, 119); translate(181, 123); translate(181, 123); translate(246, 123); translate(246, 119); translate(246, 123); translate(246, 123); translate(571, 123); translate(571, 119); translate(571, 123); translate(571, 123)"
       keyTimes="0.000; 0.100; 0.133; 0.200; 0.333; 0.433; 0.467; 0.533; 0.667; 0.767; 0.800; 0.867; 1.000"
       calcMode="spline"
       keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
