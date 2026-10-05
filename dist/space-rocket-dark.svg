@@ -26,7 +26,7 @@
     
   
       <style>
-        .cell[data-w="17"][data-d="5"] .hit-overlay {
+        .cell[data-w="16"][data-d="6"] .hit-overlay {
           animation: hit1 9s infinite;
         }
         @keyframes hit1 {
@@ -37,7 +37,7 @@
     
   
       <style>
-        .cell[data-w="42"][data-d="4"] .hit-overlay {
+        .cell[data-w="51"][data-d="6"] .hit-overlay {
           animation: hit2 9s infinite;
         }
         @keyframes hit2 {
@@ -3783,7 +3783,7 @@
       </g>
     
   
-      <g opacity="0" transform="translate(246, 123)">
+      <g opacity="0" transform="translate(233, 123)">
         <defs>
       <linearGradient id="projGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5" />
@@ -3796,11 +3796,11 @@
     <!-- Core highlight -->
     <rect x="-0.3" y="-3" width="0.6" height="6" rx="0.3" fill="#ffffff" />
         <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.4333333333333333; 0.4833333333333333; 1" dur="9s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(246, 123); translate(246, 123); translate(246, 90); translate(246, 90)" keyTimes="0; 0.4333333333333333; 0.4833333333333333; 1" dur="9s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(233, 123); translate(233, 123); translate(233, 103); translate(233, 103)" keyTimes="0; 0.4333333333333333; 0.4833333333333333; 1" dur="9s" repeatCount="indefinite" />
       </g>
     
   
-      <g opacity="0" transform="translate(571, 123)">
+      <g opacity="0" transform="translate(688, 123)">
         <defs>
       <linearGradient id="projGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5" />
@@ -3813,7 +3813,7 @@
     <!-- Core highlight -->
     <rect x="-0.3" y="-3" width="0.6" height="6" rx="0.3" fill="#ffffff" />
         <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="9s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(571, 123); translate(571, 123); translate(571, 77); translate(571, 77)" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="9s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(688, 123); translate(688, 123); translate(688, 103); translate(688, 103)" keyTimes="0; 0.7666666666666666; 0.8166666666666667; 1" dur="9s" repeatCount="indefinite" />
       </g>
     
 
@@ -3873,7 +3873,7 @@
     <animate 
       attributeName="transform" 
       type="translate"
-      values="translate(571, 123); translate(181, 123); translate(181, 119); translate(181, 123); translate(181, 123); translate(246, 123); translate(246, 119); translate(246, 123); translate(246, 123); translate(571, 123); translate(571, 119); translate(571, 123); translate(571, 123)"
+      values="translate(688, 123); translate(181, 123); translate(181, 119); translate(181, 123); translate(181, 123); translate(233, 123); translate(233, 119); translate(233, 123); translate(233, 123); translate(688, 123); translate(688, 119); translate(688, 123); translate(688, 123)"
       keyTimes="0.000; 0.100; 0.133; 0.200; 0.333; 0.433; 0.467; 0.533; 0.667; 0.767; 0.800; 0.867; 1.000"
       calcMode="spline"
       keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
