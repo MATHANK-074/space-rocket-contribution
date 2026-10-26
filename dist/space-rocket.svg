@@ -26,7 +26,7 @@
     
   
       <style>
-        .cell[data-w="49"][data-d="1"] .hit-overlay {
+        .cell[data-w="48"][data-d="3"] .hit-overlay {
           animation: hit1 6s infinite;
         }
         @keyframes hit1 {
@@ -3772,7 +3772,7 @@
       </g>
     
   
-      <g opacity="0" transform="translate(662, 123)">
+      <g opacity="0" transform="translate(649, 123)">
         <defs>
       <linearGradient id="projGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#0284c7" stop-opacity="0.5" />
@@ -3785,7 +3785,7 @@
     <!-- Core highlight -->
     <rect x="-0.3" y="-3" width="0.6" height="6" rx="0.3" fill="#ffffff" />
         <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.65; 0.725; 1" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(662, 123); translate(662, 123); translate(662, 38); translate(662, 38)" keyTimes="0; 0.65; 0.725; 1" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(649, 123); translate(649, 123); translate(649, 64); translate(649, 64)" keyTimes="0; 0.65; 0.725; 1" dur="6s" repeatCount="indefinite" />
       </g>
     
 
@@ -3845,7 +3845,7 @@
     <animate 
       attributeName="transform" 
       type="translate"
-      values="translate(662, 123); translate(51, 123); translate(51, 119); translate(51, 123); translate(51, 123); translate(662, 123); translate(662, 119); translate(662, 123); translate(662, 123)"
+      values="translate(649, 123); translate(51, 123); translate(51, 119); translate(51, 123); translate(51, 123); translate(649, 123); translate(649, 119); translate(649, 123); translate(649, 123)"
       keyTimes="0.000; 0.150; 0.200; 0.300; 0.500; 0.650; 0.700; 0.800; 1.000"
       calcMode="spline"
       keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
