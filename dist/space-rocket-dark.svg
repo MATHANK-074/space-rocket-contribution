@@ -26,7 +26,7 @@
     
   
       <style>
-        .cell[data-w="46"][data-d="3"] .hit-overlay {
+        .cell[data-w="46"][data-d="0"] .hit-overlay {
           animation: hit1 6s infinite;
         }
         @keyframes hit1 {
@@ -3785,7 +3785,7 @@
     <!-- Core highlight -->
     <rect x="-0.3" y="-3" width="0.6" height="6" rx="0.3" fill="#ffffff" />
         <animate attributeName="opacity" values="0; 1; 1; 0" keyTimes="0; 0.65; 0.725; 1" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="transform" values="translate(623, 123); translate(623, 123); translate(623, 64); translate(623, 64)" keyTimes="0; 0.65; 0.725; 1" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="transform" values="translate(623, 123); translate(623, 123); translate(623, 25); translate(623, 25)" keyTimes="0; 0.65; 0.725; 1" dur="6s" repeatCount="indefinite" />
       </g>
     
 
